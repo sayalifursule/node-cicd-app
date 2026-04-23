@@ -75,7 +75,8 @@ pm2 save
 ## 🌐 Application Screenshots
 
 ### 🖥️ EC2 Server Running Application
-<img width="1920" height="1080" alt="EC2 Screenshot" src="https://github.com/user-attachments/assets/0fd03c5c-beb5-40eb-968b-e3dbcebbfd88" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/4ebe056d-a26f-4b2c-a0f4-306fff857feb" />
+
 
 ---
 
