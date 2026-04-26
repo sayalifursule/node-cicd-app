@@ -1,16 +1,16 @@
-# 🚀 Node.js CI/CD Deployment on AWS EC2
+# Node.js CI/CD Deployment on AWS EC2
 
-## 📌 Project Overview
+## Project Overview
 This project demonstrates deployment of a Node.js application on an AWS EC2 instance. The application is hosted on a Linux server and managed using PM2 to ensure continuous uptime. The project also showcases a basic CI/CD workflow using Git and GitHub.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 GitHub → AWS EC2 → Node.js Application → PM2 Process Manager
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - Node.js
 - AWS EC2 (Amazon Linux)
 - Git & GitHub
@@ -19,7 +19,7 @@ GitHub → AWS EC2 → Node.js Application → PM2 Process Manager
 
 ---
 
-## 🚀 Features
+## Features
 - Node.js server deployed on AWS EC2
 - Application running continuously using PM2
 - GitHub repository integration
@@ -28,7 +28,7 @@ GitHub → AWS EC2 → Node.js Application → PM2 Process Manager
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 node-cicd-app/
 ├── app.js
 ├── package.json
@@ -37,25 +37,25 @@ node-cicd-app/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Clone Repository
+### Clone Repository
 git clone https://github.com/your-username/node-cicd-app.git
 cd node-cicd-app
 
 ---
 
-### 2️⃣ Install Dependencies
+### Install Dependencies
 npm install
 
 ---
 
-### 3️⃣ Run Application Locally
+### Run Application Locally
 node app.js
 
 ---
 
-### 4️⃣ Deploy on AWS EC2
+### Deploy on AWS EC2
 
 SSH into EC2:
 ssh ec2-user@your-ec2-ip
@@ -72,25 +72,25 @@ pm2 save
 
 ---
 
-## 🌐 Application Screenshots
+## Application Screenshots
 
-### 🖥️ EC2 Server Running Application
+### EC2 Server Running Application
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/4ebe056d-a26f-4b2c-a0f4-306fff857feb" />
 
 
 ---
 
-### 🌍 Application Running in Browser
+### Application Running in Browser
 <img width="1920" height="1020" alt="Browser Screenshot" src="https://github.com/user-attachments/assets/af281d53-3762-4d8b-bb58-a7fedb0584f7" />
 
 ---
 
-## 🔄 CI/CD Workflow
+## CI/CD Workflow
 Code Changes → Git Commit → Git Push → EC2 Pull → PM2 Restart
 
 ---
 
-## 📌 Useful PM2 Commands
+## Useful PM2 Commands
 pm2 start app.js --name myapp
 pm2 list
 pm2 restart myapp
@@ -99,7 +99,7 @@ pm2 save
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 - AWS EC2 deployment
 - Linux server management
 - Process management using PM2
